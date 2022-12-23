@@ -2,7 +2,7 @@ body{
     background-color: rgb(203, 203, 243);
 }
 .navbarMargin1{
-    margin-left: 60px;
+    margin-left: 50px;
     font-size: 20px;
 }
 .navbarMargin2{
@@ -25,21 +25,58 @@ body{
 .secondPart{
     height: 500px;
     display: flex;
-    padding-top: 100px;
+    padding-top: 160px;
 }
 .elementsOfSecondPart{
     margin-left: 100px;
     margin-right: 100px;
+    text-align: center;
 }
 i{
     font-size: 60px;
     color: rgb(59, 128, 255);
 }
-.fa-solid{
-    margin-left: 43px;
+.fa-solid, .fa-regular{
     margin-bottom: 15px;
 }
-.fa-regular{
-    margin-left: 25px;
-    margin-bottom: 15px;
+
+.elementsOfSecondPart > p{
+    font-size: 17px;
+    text-align: center;
+    color: rgb(153, 151, 151);
+}
+.thirdPart{
+    background-color: white;
+}
+.thirdPartImg{
+    margin-left: -15px;
+
+}
+.fourthPartImg{
+    margin-left: 10px;
+    margin-bottom: -18px;
+}
+.imgFromParent{
+    margin-right: -27px;
+}
+.imgFromParent2{
+    margin-left: -27px;
+}
+.thirdRow{
+    margin-top: 17px;
+}
+.thirdPartText{
+    padding: 130px 100px 100px 100px;
+    text-align: justify;
+}
+.FourthPartImage{
+    width: 300px;
+    height: 300px;
+    margin: 100px 100px 100px 100px;
+}
+
+.imgg{
+    border-radius: 50%;
+	height: 230px;
+    width: 230px;
 }
